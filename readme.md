@@ -16,6 +16,8 @@
 - **JSON Server**: To simulate a RESTful API.
 - **Day.js**: For date manipulation.
 
+**[Live Demo →](https://hairday-pi.vercel.app)**
+
 ## Features 🌟
 
 - Schedule haircuts.
