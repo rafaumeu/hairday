@@ -62,4 +62,4 @@ This project is licensed under the ISC License. See the [LICENSE](LICENSE) file 
 
 ## Contact 📫
 
-Developed by Rafael Dias Zendron. You can find me on [LinkedIn](https://www.linkedin.com/in/rafael-dias-zendron/) or [GitHub](https://github.com/seu-usuario).
+Developed by Rafael Dias Zendron. You can find me on [LinkedIn](https://www.linkedin.com/in/rafael-dias-zendron/) or [GitHub](https://github.com/rafaumeu).
