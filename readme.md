@@ -1,67 +1,47 @@
-# Hair Day ✂️
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=FF0080&height=150&section=header&text=Hairday&fontSize=35&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Barbershop%20Scheduling%20Application&descSize=16&descAlignY=52"/>
+</div>
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
-![License](https://img.shields.io/badge/license-ISC-green)
-![Node.js](https://img.shields.io/badge/node.js-v16.0.0-brightgreen)
+<p align="center">
+  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript) ![Webpack](https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=webpack) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3)
+</p>
 
-## Description 📖
+## Overview
 
-**Hair Day** is a web application for scheduling haircuts. With a user-friendly interface, users can select the date, time, and enter the client's name to create a schedule. Additionally, it is possible to view existing schedules.
+A barbershop scheduling application for booking haircuts and managing appointments. Built with **vanilla JavaScript** and **Webpack** for a clean, fast user experience.
 
-## Technologies Used 🛠️
+## Features
 
-- **JavaScript**: Primary programming language.
-- **Webpack**: For module bundling.
-- **Babel**: For transpiling modern JavaScript code.
-- **JSON Server**: To simulate a RESTful API.
-- **Day.js**: For date manipulation.
+- Service catalog with pricing
+- Appointment scheduling with date/time picker
+- Barbershop profile management
+- Responsive mobile-first design
+- Webpack build optimization
 
-**[Live Demo →](https://hairday-pi.vercel.app)**
+## Tech Stack
 
-## Features 🌟
+| Technology | Purpose |
+|---|---|
+| **JavaScript** | Application logic |
+| **Webpack** | Module bundler |
+| **HTML/CSS** | Structure and styling |
 
-- Schedule haircuts.
-- View schedules by day.
-- Cancel existing schedules.
+## Getting Started
 
-## Project Structure 📁
-
-```
-hairday/
-├── src/
-│   ├── assets/      # Images and icons
-│   ├── modules/     # Feature modules
-│   ├── services/    # API services
-│   └── styles/      # CSS styles
-├── index.html       # Main page
-├── package.json     # Dependencies and scripts
-└── server.json      # Simulated API data
+```bash
+git clone https://github.com/rafaumeu/hairday.git
+cd hairday
+npm install
+npm run dev
 ```
 
-## Available Scripts 🏃‍♂️
+🌐 **Live Demo:** [hairday-pi.vercel.app](https://hairday-pi.vercel.app)
 
-- `npm run build`: Compiles the project for production.
-- `npm run dev`: Starts the development server.
-- `npm run server`: Starts the JSON Server to simulate the API.
+## License
 
-## Learnings 📚
+MIT
 
-During the development of this project, I learned:
-
-- How to use **Webpack** to bundle and optimize resources.
-- The importance of **Babel** to ensure compatibility with older browsers.
-- How to manipulate dates efficiently with the **Day.js** library.
-- Creating a simple RESTful API using **JSON Server** to simulate interactions with a database.
-- Implementing forms and validations in JavaScript to improve the user experience.
-
-## Contributions 🤝
-
-Contributions are welcome! Feel free to open issues or pull requests.
-
-## License 📜
-
-This project is licensed under the ISC License. See the [LICENSE](LICENSE) file for more details.
-
-## Contact 📫
-
-Developed by Rafael Dias Zendron. You can find me on [LinkedIn](https://www.linkedin.com/in/rafael-dias-zendron/) or [GitHub](https://github.com/rafaumeu).
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=FF0080&height=100&section=footer"/>
+  <br/><sub>Built with ❤️ by <a href="https://github.com/rafaumeu">Rafael Zendron</a></sub>
+</div>
