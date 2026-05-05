@@ -17,6 +17,92 @@
   font-size: 0.87rem;
 }
 
+.filters {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border: 1px solid #2e2c30;
+  border-radius: 0.5rem;
+  background-color: #1e1d20;
+}
+
+.filter-group {
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.filter-label {
+  font-size: 0.87rem;
+  color: #98959d;
+  font-weight: 700;
+  min-width: 4rem;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.filter-period-btn {
+  padding: 0.4rem 0.87rem;
+  border-radius: 0.375rem;
+  border: 1px solid #3e3c41;
+  background-color: #2e2c30;
+  color: #b2afb6;
+  font-family: "Catamaran", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.filter-period-btn:hover {
+  border-color: #b8952e;
+  color: #b8952e;
+}
+
+.filter-period-btn.filter-active {
+  background-color: #b8952e;
+  color: #050505;
+  border-color: #b8952e;
+}
+
+.filter-select {
+  padding: 0.4rem 0.75rem;
+  border-radius: 0.375rem;
+  border: 1px solid #3e3c41;
+  background-color: #2e2c30;
+  color: #b2afb6;
+  font-family: "Catamaran", sans-serif;
+  font-size: 0.8rem;
+  cursor: pointer;
+  outline: none;
+  min-width: 10rem;
+}
+
+.filter-select:focus {
+  border-color: #b8952e;
+}
+
+.filter-select option {
+  background-color: #2e2c30;
+  color: #b2afb6;
+}
+
+.filter-count {
+  font-size: 0.8rem;
+  color: #98959d;
+  padding-top: 0.5rem;
+  border-top: 1px solid #2e2c30;
+  margin-top: 0.25rem;
+}
+
+.filter-count strong {
+  color: #b8952e;
+}
+
 .schedule-period {
   border: 1px solid #2e2c30;
   border-radius: 0.5rem;
@@ -56,12 +142,12 @@
 }
 
 .schedule-period ul li {
-  height: 2rem;
   color: #b2afb6;
   font-size: 1rem;
 
   display: flex;
   align-items: center;
+  padding: 0.25rem 0;
 }
 
 .schedule-period ul li span {
@@ -71,6 +157,9 @@
 .cancel-icon {
   cursor: pointer;
   transition: opacity 0.2s;
+  width: 1rem;
+  height: 1rem;
+  margin-left: 0.75rem;
 }
 
 .schedule-period ul li img:hover {
@@ -79,6 +168,15 @@
 
 .schedule-period ul li strong {
   margin-right: 1.25rem;
+  min-width: 3rem;
+}
+
+.service-info {
+  font-style: normal;
+  font-size: 0.75rem;
+  color: #b8952e;
+  margin-right: 0.75rem;
+  white-space: nowrap;
 }
 
 @media (max-width: 1100px) {
@@ -89,5 +187,15 @@
 
   .schedule > header {
     flex-direction: column;
+  }
+
+  .filter-group {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+  }
+
+  .filter-select {
+    min-width: 100%;
   }
 }
