@@ -17,7 +17,7 @@
   </head>
   <body>
     <div class="container">
-      <img src="./src/assets/logo.svg" alt="Logo" class="logo" />
+      <img src="././src/assets/logo.svg" alt="Logo" class="logo" />
 
       <form class="form">
         <header>
@@ -60,24 +60,34 @@
           <p>Visualize os agendamentos de acordo com o dia selecionado</p>
         </header>
 
+        <div class="filters">
+          <div class="filter-group">
+            <span class="filter-label">Período:</span>
+            <div class="filter-buttons">
+              <button class="filter-period-btn filter-active" data-period="all">Todos</button>
+              <button class="filter-period-btn" data-period="morning">Manhã</button>
+              <button class="filter-period-btn" data-period="afternoon">Tarde</button>
+              <button class="filter-period-btn" data-period="night">Noite</button>
+            </div>
+          </div>
+          <div class="filter-group">
+            <span class="filter-label">Serviço:</span>
+            <select id="filter-service" class="filter-select">
+              <option value="all">Todos os serviços</option>
+            </select>
+          </div>
+          <div class="filter-count">
+            <span>Exibindo <strong id="appointment-count">0</strong> agendamento(s)</span>
+          </div>
+        </div>
+
         <section class="schedule-period">
           <header>
             <img src="./src/assets/morning.svg" alt="Manhã" />
             <strong>Manhã</strong>
-            <span>09h-12h</span>
+            <span>06h-12h</span>
           </header>
           <ul id="period-morning" class="period">
-            <!-- Exemplo  
-            <li>
-              <strong>11:00</strong>
-              <span>Rodrigo Gonçalves</span>
-              <img
-                src="./src/assets/cancel.svg"
-                alt="Cancelar"
-                class="cancel-icon"
-              />
-            </li>
-          -->
           </ul>
         </section>
 
@@ -85,41 +95,19 @@
           <header>
             <img src="./src/assets/afternoon.svg" alt="Tarde" />
             <strong>Tarde</strong>
-            <span>13h-18h</span>
+            <span>12h-18h</span>
           </header>
           <ul id="period-afternoon" class="period">
-            <!-- Exemplo
-            <li>
-              <strong>14:00</strong>
-              <span>Rodrigo Gonçalves</span>
-              <img
-                src="./src/assets/cancel.svg"
-                alt="Cancelar"
-                class="cancel-icon"
-              />
-            </li>
-            -->
           </ul>
         </section>
 
         <section class="schedule-period">
           <header>
-            <img src="./src/assets/night.svg" alt="noite" />
-            <strong>noite</strong>
-            <span>19h-21h</span>
+            <img src="./src/assets/night.svg" alt="Noite" />
+            <strong>Noite</strong>
+            <span>18h-22h</span>
           </header>
           <ul id="period-night" class="period">
-            <!-- Exemplo 
-            <li>
-              <strong>19:00</strong>
-              <span>Rodrigo Gonçalves</span>
-              <img
-                src="./src/assets/cancel.svg"
-                alt="Cancelar"
-                class="cancel-icon"
-              />
-            </li>
-            -->
           </ul>
         </section>
       </aside>

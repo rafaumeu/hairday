@@ -1,9 +1,103 @@
 {
+  "services": [
+    {
+      "id": 1,
+      "name": "Corte",
+      "duration": 30
+    },
+    {
+      "id": 2,
+      "name": "Corte e Barba",
+      "duration": 45
+    },
+    {
+      "id": 3,
+      "name": "Hidratação",
+      "duration": 60
+    },
+    {
+      "id": 4,
+      "name": "Coloração",
+      "duration": 90
+    },
+    {
+      "id": 5,
+      "name": "Escova",
+      "duration": 60
+    }
+  ],
   "schedules": [
     {
       "id": "1730029489091",
       "name": "Rafael",
+      "serviceId": 1,
+      "when": "2024-10-28T09:00:00.000Z"
+    },
+    {
+      "id": "1730029489092",
+      "name": "Ana Clara",
+      "serviceId": 3,
+      "when": "2024-10-28T10:00:00.000Z"
+    },
+    {
+      "id": "1730029489093",
+      "name": "João Pedro",
+      "serviceId": 2,
+      "when": "2024-10-28T11:30:00.000Z"
+    },
+    {
+      "id": "1730029489094",
+      "name": "Maria Silva",
+      "serviceId": 5,
+      "when": "2024-10-28T13:00:00.000Z"
+    },
+    {
+      "id": "1730029489095",
+      "name": "Carlos Souza",
+      "serviceId": 1,
+      "when": "2024-10-28T14:00:00.000Z"
+    },
+    {
+      "id": "1730029489096",
+      "name": "Beatriz Lima",
+      "serviceId": 4,
       "when": "2024-10-28T15:00:00.000Z"
+    },
+    {
+      "id": "1730029489097",
+      "name": "Lucas Oliveira",
+      "serviceId": 2,
+      "when": "2024-10-28T16:00:00.000Z"
+    },
+    {
+      "id": "1730029489098",
+      "name": "Fernanda Costa",
+      "serviceId": 3,
+      "when": "2024-10-28T17:00:00.000Z"
+    },
+    {
+      "id": "1730029489099",
+      "name": "Pedro Henrique",
+      "serviceId": 1,
+      "when": "2024-10-28T18:00:00.000Z"
+    },
+    {
+      "id": "1730029489100",
+      "name": "Juliana Martins",
+      "serviceId": 5,
+      "when": "2024-10-28T19:00:00.000Z"
+    },
+    {
+      "id": "1730029489101",
+      "name": "Gabriel Rocha",
+      "serviceId": 4,
+      "when": "2024-10-28T20:00:00.000Z"
+    },
+    {
+      "id": "1730029489102",
+      "name": "Isabela Ferreira",
+      "serviceId": 1,
+      "when": "2024-10-28T21:00:00.000Z"
     }
   ]
 }

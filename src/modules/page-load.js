@@ -1,5 +1,6 @@
-import { schedulesDay } from "./schedules/load"
+import { schedulesDay, initFilters } from "./schedules/load"
 
 document.addEventListener("DOMContentLoaded", () => {
   schedulesDay()
+  initFilters()
 })
