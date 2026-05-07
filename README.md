@@ -9,6 +9,11 @@
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
 </p>
 
+<div align="center">
+  <img src="./docs/screenshot.png" alt="Hairday Screenshot" width="100%" />
+  <sup>Desktop · <a href="./docs/screenshot-mobile.png">Mobile</a></sup>
+</div>
+
 ## Overview
 
 A barbershop scheduling application for booking haircuts and managing appointments. Built with **vanilla JavaScript** and **Webpack** for a clean, fast user experience.
