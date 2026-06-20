@@ -13,7 +13,7 @@
   "description": "Aplicação para agendamento de horários de corte de cabelo",
   "dependencies": {
     "dayjs": "1.11.10",
-    "json-server": "1.0.0-alpha.21"
+    "json-server": "1.0.0-beta.15"
   },
   "devDependencies": {
     "@babel/core": "7.23.7",
